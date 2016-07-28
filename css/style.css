@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
 	margin:0;
 	font-size: 100%;
-	font-family: 'Lato', sans-serif;
+	font-family: Georgia, Times, "Times New Roman", serif;
 	background: #fff;
 }
 body a {
@@ -31,7 +31,7 @@ input[type="button"],input[type="submit"]{
 
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Viga', sans-serif;
+	font-family: Georgia, Times, "Times New Roman", serif;
 }	
 p{
 	margin:0;
@@ -136,13 +136,13 @@ label{
     color: #fff;
     font-size: 21px;
 	text-decoration:none;
-	font-family: 'Viga', sans-serif;
+	font-family: Georgia, Times, "Times New Roman", serif;
     display: block;
     background: #e34234;
     padding: 22px 15px;
 }
 .logo span {
-    font-family: 'Lato', sans-serif;
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 13px;
     display: block;
     margin-top: 8px;
@@ -237,7 +237,7 @@ a.hvr-bounce-to-bottom:hover:before,a.hvr-bounce-to-bottom:focus:before,a.hvr-bo
     margin-top: 14em;
 }
 .banner-left h3{
-    font-family: 'Lato', sans-serif;
+    font-family: Georgia, Times, "Times New Roman", serif;
     color: #fff;
     font-size: 40px;
     font-weight: 300;
@@ -1334,7 +1334,7 @@ border-top: 1px solid #c1c1c1 !important;
 	margin-right: 3px;
 	border: none;
 	border-radius: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 14px;
 	color: #555;
 	padding: 12px 20px;
