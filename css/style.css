@@ -819,7 +819,14 @@ figure.effect-apollo:hover p {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
-
+.grid{
+  min-height: 200px;  
+}
+.grid h5 {
+    color: #95001D;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
 .treat-grids.grid {
 	position: relative;
 	margin: 0 auto;
