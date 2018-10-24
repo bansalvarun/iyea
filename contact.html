@@ -121,7 +121,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- contact -->
 <div class="contact">
 	<div class="container">
-		<h3>Contact</h3>
 		<div class=" contact_left">
 			<h4>Contact Information</h4>
 			<p> </p>
@@ -194,6 +193,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
+		$('.dropdown').hover(function(){ 
+  			$('.dropdown-toggle', this).trigger('click'); 
+		});
+
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->

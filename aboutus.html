@@ -115,7 +115,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- services -->
 <div class="services">
 	<div class="container">
-		<h3>About Us</h3>
 		<div class="ser-left-grid">
 			<h4>Overview</h4>
 			<p>
@@ -190,6 +189,10 @@ College, Indian Debating Union and Indian Debating League include some of these 
 		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
+		$('.dropdown').hover(function(){ 
+  			$('.dropdown-toggle', this).trigger('click'); 
+		});
+
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->

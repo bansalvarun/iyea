@@ -183,6 +183,10 @@ Interested parties may write to president@iyea.in
 		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
+		$('.dropdown').hover(function(){ 
+  			$('.dropdown-toggle', this).trigger('click'); 
+		});
+
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->

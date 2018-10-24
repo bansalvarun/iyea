@@ -146,10 +146,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<h3 style="color:#95001D">Indian Youth Economic Association <br/>
 		<!-- <img src="images/logo2.png"> -->
 		</h3>
-		<p class="para1">The Indian Youth Economic Association is a non-profit research trust founded in 2012. It has
+		<p class="para1"><!-- The Indian Youth Economic Association is a non-profit research trust founded in 2012. It has
 since, promoted economic research and the advancement of economic knowledge amongst
 the youth of the country. It aims to spread economic knowledge and the results of economic
-research, encourage the exchange of ideas between the youth.. <a href="aboutus.html">Read More</a></p>
+research, encourage the exchange of ideas between the youth.. <a href="aboutus.html">Read More</a> --></p>
 		<div class="row">
 			<!-- <div class="col-md-2"></div> -->
 			<div class="col-md-6">
@@ -228,6 +228,10 @@ research, encourage the exchange of ideas between the youth.. <a href="aboutus.h
 										
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
+		$('.dropdown').hover(function(){ 
+  			$('.dropdown-toggle', this).trigger('click'); 
+		});
+
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
